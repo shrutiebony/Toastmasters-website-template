@@ -1,0 +1,15 @@
+.GooglemapClass {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-heading
+{
+  margin-top: 2%;
+  padding: 2%;
+  text-align: center;
+  color:  rgba(87, 3, 3, 0.866);
+}

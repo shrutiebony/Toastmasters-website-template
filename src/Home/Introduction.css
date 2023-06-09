@@ -1,0 +1,29 @@
+.toastmasters-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-image: radial-gradient(circle, #ffffff 1%, #ffffff 30%, #f0f0f0 80%);
+  /* You can adjust the colors and percentages to achieve the desired sparkly effect */
+
+  /* Add any additional styles for the container, such as width, height, padding, etc. */
+}
+
+.toastmasters-introduction {
+  flex: 1;
+  padding: 20px;
+  font-family: 'Your Beautiful Cursive Font', cursive;
+  /* Specify the desired beautiful cursive font for the introduction text */
+}
+
+.toastmasters-image {
+  flex: 1;
+  padding: 20px;
+  margin-left: 2rem;
+}
+
+.toastmasters-image img {
+  max-width: 100%;
+  height: auto;
+  /* Add any additional styles for the image, such as width, height, etc. */
+}
