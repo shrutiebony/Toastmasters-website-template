@@ -1,9 +1,10 @@
 import React from 'react';
-import './Footer.css';
+import './ContactFooter.css';
 
-const Footer = () => {
+const ContactFooter = () => {
   return (
-    <footer className="footer">
+    <div>
+    <footer className="footerContact">
 
       <div className="footer-content">
       <h2 class="footer_heading">For queries, reach out at: </h2>
@@ -24,7 +25,9 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+
+</div>
   );
 };
 
-export default Footer;
+export default ContactFooter;

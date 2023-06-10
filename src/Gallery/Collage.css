@@ -1,9 +1,23 @@
 
-body
-{
-    background-color: whitesmoke;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 500 100%/1.4 system-ui;
+  background-color: #ccc;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0rem;
+  padding: 1rem;
 }
 .collage-container {
+  z-index: 9000;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
@@ -32,7 +46,7 @@ body
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;

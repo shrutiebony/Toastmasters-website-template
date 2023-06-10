@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  
 }
 .map-heading
 {
@@ -12,4 +14,12 @@
   padding: 2%;
   text-align: center;
   color:  rgba(87, 3, 3, 0.866);
+}
+@media (max-width: 1024px) {
+  .map-Container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30%;
+    padding-bottom: 2%;
+  }
 }

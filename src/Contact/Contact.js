@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../Header/Header';
 import MapComponent from './MapComponent';
-import Footer from './Footer';
+import ContactFooter from './ContactFooter';
 const Contact = () => {
   return (
     <div>
       <Header />
       <MapComponent />
-      <Footer></Footer>
+      <ContactFooter></ContactFooter>
     </div>
   );
 };
