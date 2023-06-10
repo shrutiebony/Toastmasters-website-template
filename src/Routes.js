@@ -6,9 +6,9 @@ import Contact from './Contact/Contact';
 import FinalLandingPage from './LandingPageComponents/FinalLandingPage';
 const WebRoutes = () => {
     return (
-      <BrowserRouter basename='Ghaziabad-Toastmasters-Club'>
+      <BrowserRouter>
       <Routes>
-      <Route path="/Ghaziabad-Toastmasters-Club" element={<FinalLandingPage/>} />
+      <Route path="/" element={<FinalLandingPage/>} />
           <Route path="/Home" element={<Home/>} />
           <Route path='/Gallery' element={<Gallery/>}></Route>
           <Route path='/Contact' element={<Contact/>}></Route>

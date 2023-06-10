@@ -25,7 +25,7 @@ const LandingPage = () => {
 
       <main className="content">
         <h1 class="welcome-heading glow">Ghaziabad Toastmasters club welcomes you</h1>
-        <Link to='/Ghaziabad-Toastmasters-Club/Home/' className="button">Read more about Us!</Link>
+        <Link to='/Home/' className="button">Read more about Us!</Link>
 
       </main>
 
