@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Ghaziabad-Toastmasters-Club/static/css/main.14a7d803.css",
+    "main.js": "/Ghaziabad-Toastmasters-Club/static/js/main.2f95454d.js",
+    "static/js/787.c3b56d40.chunk.js": "/Ghaziabad-Toastmasters-Club/static/js/787.c3b56d40.chunk.js",
+    "static/media/Group_discussion.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Group_discussion.d0937391aab8c0bd2637.PNG",
+    "static/media/Moment_Of_Truth.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Moment_Of_Truth.9ce0f8e2cecd03f3c6df.PNG",
+    "static/media/Group.png": "/Ghaziabad-Toastmasters-Club/static/media/Group.ccb87b3f6881d23634e4.png",
+    "static/media/Party.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Party.5fa55fd2f3894f85088a.PNG",
+    "static/media/background-image.jpg": "/Ghaziabad-Toastmasters-Club/static/media/background-image.d412a241111696688997.jpg",
+    "static/media/Toastmaster9.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster9.0a699741a90bdf3c27a0.png",
+    "static/media/Toastmaster3.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster3.0039994e6732a04b0a4d.png",
+    "static/media/Toastmaster8.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster8.45726622227ed6485c0c.png",
+    "static/media/Toastmaster1.jpeg": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster1.8c1335d027881336bc75.jpeg",
+    "static/media/Toastmaster6.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster6.e2ec7a15a16f52070aac.png",
+    "static/media/Toastmaster4.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster4.7db7be5fd60553598441.png",
+    "static/media/Toastmaster2.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster2.11a64030f0e05eabc7e6.png",
+    "index.html": "/Ghaziabad-Toastmasters-Club/index.html",
+    "main.14a7d803.css.map": "/Ghaziabad-Toastmasters-Club/static/css/main.14a7d803.css.map",
+    "main.2f95454d.js.map": "/Ghaziabad-Toastmasters-Club/static/js/main.2f95454d.js.map",
+    "787.c3b56d40.chunk.js.map": "/Ghaziabad-Toastmasters-Club/static/js/787.c3b56d40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a7d803.css",
+    "static/js/main.2f95454d.js"
+  ]
+}
