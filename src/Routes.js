@@ -1,21 +1,16 @@
-import React from 'react';
-import { BrowserRouter, Route, Router, Routes} from 'react-router-dom';
-import Home from './Home/Home';
-import Gallery from './Gallery/Gallery';
-import Contact from './Contact/Contact';
-import FinalLandingPage from './LandingPageComponents/FinalLandingPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 const WebRoutes = () => {
-    return (
-      <BrowserRouter>
+  return (
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-      <Route path={process.env.PUBLIC_URL + "/"} element={<FinalLandingPage/>} />
-          <Route path={process.env.PUBLIC_URL + "/Home"} element={<Home/>} />
-          <Route path={process.env.PUBLIC_URL + '/Gallery'} element={<Gallery/>}></Route>
-          <Route path={process.env.PUBLIC_URL + '/Contact'} element={<Contact/>}></Route>
-          </Routes>
-      </BrowserRouter>
-    );
-  };
-  
-  export default WebRoutes;
-  
+        <Route path="/" element={<FinalLandingPage />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default WebRoutes;
