@@ -9,9 +9,9 @@ const Header = () => {
     <div class="navbar">
       <a href="./" class="logo">Ghaziabad Toastmasters Club</a>
       <ul class="nav-links">
-        <li><a href="./Home">Home</a></li>
-        <li><a href="/Gallery">Gallery</a></li>
-        <li><a href="/Contact">Contact US</a></li>
+        <li><a href="./Ghaziabad-Toastmasters-Club/Home">Home</a></li>
+        <li><a href="./Ghaziabad-Toastmasters-Club/Gallery">Gallery</a></li>
+        <li><a href="./Ghaziabad-Toastmasters-Club/Contact">Contact US</a></li>
       </ul>
     </div>
   </nav>
