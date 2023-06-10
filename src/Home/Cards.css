@@ -49,3 +49,19 @@ body {
   color: #5e5e89;
   text-align: center;
 }
+@media (max-width: 1024px) {
+  .card {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background: #f8f3e8;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+  }
+  
+  .card > img {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 600/300;
+  }
+}
