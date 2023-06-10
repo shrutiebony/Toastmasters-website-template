@@ -6,8 +6,8 @@ import Contact from './Contact/Contact';
 import FinalLandingPage from './LandingPageComponents/FinalLandingPage';
 const WebRoutes = () => {
     return (
-      <BrowserRouter>
-      <Routes basename="/Ghaziabad-Toastmasters-Club">
+      <BrowserRouter basename="/Ghaziabad-Toastmasters-Club">
+      <Routes>
       <Route path="/Ghaziabad-Toastmasters-Club" element={<FinalLandingPage/>} />
           <Route path="/Home/" element={<Home/>} />
           <Route path='/Gallery' element={<Gallery/>}></Route>
