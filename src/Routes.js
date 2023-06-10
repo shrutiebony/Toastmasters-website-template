@@ -8,11 +8,10 @@ const WebRoutes = () => {
     return (
       <BrowserRouter>
       <Routes>
-      <Route path="/" element={<FinalLandingPage/>} />
-          <Route path="/Home" element={<Home/>} />
-          <Route path='/Gallery' element={<Gallery/>}></Route>
-          <Route path='/Contact' element={<Contact/>}></Route>
-
+      <Route path={process.env.PUBLIC_URL + "/"} element={<FinalLandingPage/>} />
+          <Route path={process.env.PUBLIC_URL + "/Home"} element={<Home/>} />
+          <Route path={process.env.PUBLIC_URL + '/Gallery'} element={<Gallery/>}></Route>
+          <Route path={process.env.PUBLIC_URL + '/Contact'} element={<Contact/>}></Route>
           </Routes>
       </BrowserRouter>
     );

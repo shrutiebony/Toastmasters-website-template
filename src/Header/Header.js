@@ -9,9 +9,9 @@ const Header = () => {
     <div class="navbar">
       <a href="./" class="logo">Ghaziabad Toastmasters Club</a>
       <ul class="nav-links">
-        <li><a href="/Home">Home</a></li>
-        <li><a href="/Gallery">Gallery</a></li>
-        <li><a href="/Contact">Contact US</a></li>
+        <li><a href={process.env.PUBLIC_URL + "/Home"}>Home</a></li>
+        <li><a href={process.env.PUBLIC_URL + "/Gallery"}>Gallery</a></li>
+        <li><a href={process.env.PUBLIC_URL + "/Contact"}>Contact US</a></li>
       </ul>
     </div>
   </nav>
