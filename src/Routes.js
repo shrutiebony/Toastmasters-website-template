@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Router, Routes, Redirect} from 'react-router-dom';
+import { BrowserRouter, Route, Router, Routes, redirect, Navigate} from 'react-router-dom';
 import Home from './Home/Home';
 import Gallery from './Gallery/Gallery';
 import Contact from './Contact/Contact';
@@ -13,7 +13,9 @@ const WebRoutes = () => {
         <Route path="/Home" element={<Home />} />
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path='/*' element={<FinalLandingPage />}></Route>
+        <Route
+        path="*"
+      element={<Navigate to="/" replace={true} />}    />
       </Routes>
     </BrowserRouter>
   );
