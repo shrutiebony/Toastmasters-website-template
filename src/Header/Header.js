@@ -8,11 +8,11 @@ const Header = () => {
       <h1 className="header-title">
       <nav>
     <div class="navbar">
-      <a href="./" class="logo">Ghaziabad Toastmasters Club</a>
+    <Link class="logo" to={process.env.PUBLIC_URL + "/"}>Ghaziabad Toastmasters Club</Link>
       <ul class="nav-links">
       <Link to={process.env.PUBLIC_URL + "/Home"}>Home</Link>
-        <li><a href={"/Gallery"}>Gallery</a></li>
-        <li><a href={"/Contact"}>Contact US</a></li>
+      <Link to={process.env.PUBLIC_URL + "/Gallery"}>Gallery</Link>
+      <Link to={process.env.PUBLIC_URL + "/Contact"}>Contact US</Link>
       </ul>
     </div>
   </nav>
