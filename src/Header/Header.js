@@ -14,25 +14,25 @@ const Header = () => {
       <h1 className="header-title">
         <nav>
           <div className={`navbar ${showMenu ? 'show' : ''}`}>
-            <Link className="logo" to={process.env.PUBLIC_URL + "/"}>
+            <Link className="logo" to={"/"}>
               Ghaziabad Toastmasters Club
             </Link>
             <div className={`nav-links ${showMenu ? 'show' : ''}`}>
               <Link
                 className="linkClass"
-                to={process.env.PUBLIC_URL + "/Home"}
+                to={"/Home"}
               >
                 Home
               </Link>
               <Link
                 className="linkClass"
-                to={process.env.PUBLIC_URL + "/Gallery"}
+                to={"/Gallery"}
               >
                 Gallery
               </Link>
               <Link
                 className="linkClass"
-                to={process.env.PUBLIC_URL + "/Contact"}
+                to={"/Contact"}
               >
                 Contact US
               </Link>
