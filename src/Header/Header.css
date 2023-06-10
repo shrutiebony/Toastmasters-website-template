@@ -15,17 +15,17 @@
 }
 
 /* Style the navigation links */
-.nav-links li {
+.nav-links .linkClass {
   display: inline-block;
   padding: 0px 30px;
 }
 
-.nav-links li a {
+.nav-links .linkClass {
   color: rgb(245, 233, 211);
   text-decoration: none;
 }
 
-.nav-links li a:hover {
+.nav-links .linkClass .linkClass:hover {
   color: whitesmoke;
 }
 
@@ -46,12 +46,12 @@
     display: flex;
   }
 
-  .nav-links li {
+  .nav-links .linkClass {
     width: 100%;
     padding: 10px 0;
   }
 
-  .nav-links li a {
+  .nav-links .linkClass {
     padding: 10px;
     text-align: center;
     width: 100%;

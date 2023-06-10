@@ -10,9 +10,9 @@ const Header = () => {
     <div class="navbar">
     <Link class="logo" to={process.env.PUBLIC_URL + "/"}>Ghaziabad Toastmasters Club</Link>
       <ul class="nav-links">
-      <Link to={process.env.PUBLIC_URL + "/Home"}>Home</Link>
-      <Link to={process.env.PUBLIC_URL + "/Gallery"}>Gallery</Link>
-      <Link to={process.env.PUBLIC_URL + "/Contact"}>Contact US</Link>
+      <Link class="linkClass" to={process.env.PUBLIC_URL + "/Home"}>Home</Link>
+      <Link class="linkClass" to={process.env.PUBLIC_URL + "/Gallery"}>Gallery</Link>
+      <Link class="linkClass" to={process.env.PUBLIC_URL + "/Contact"}>Contact US</Link>
       </ul>
     </div>
   </nav>
