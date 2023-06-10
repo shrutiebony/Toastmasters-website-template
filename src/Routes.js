@@ -1,5 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import React from 'react';
+import { BrowserRouter, Route, Router, Routes} from 'react-router-dom';
+import Home from './Home/Home';
+import Gallery from './Gallery/Gallery';
+import Contact from './Contact/Contact';
+import FinalLandingPage from './LandingPageComponents/FinalLandingPage';
 const WebRoutes = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
