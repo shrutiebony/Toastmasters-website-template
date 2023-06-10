@@ -8,8 +8,8 @@ const WebRoutes = () => {
     return (
       <BrowserRouter>
       <Routes>
-      <Route path="/" element={<FinalLandingPage/>} />
-          <Route path="/Home" element={<Home/>} />
+      <Route path="/Ghaziabad-Toastmasters-Club" element={<FinalLandingPage/>} />
+          <Route path="/Home/" element={<Home/>} />
           <Route path='/Gallery' element={<Gallery/>}></Route>
           <Route path='/Contact' element={<Contact/>}></Route>
 
