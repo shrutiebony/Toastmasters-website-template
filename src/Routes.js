@@ -13,7 +13,7 @@ const WebRoutes = () => {
         <Route path="/Home" element={<Home />} />
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path='*' element={<FinalLandingPage />}></Route>
+        <Route path='/*' element={<FinalLandingPage />}></Route>
       </Routes>
     </BrowserRouter>
   );
