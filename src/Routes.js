@@ -7,7 +7,7 @@ import FinalLandingPage from './LandingPageComponents/FinalLandingPage';
 const WebRoutes = () => {
     return (
       <BrowserRouter>
-      <Routes>
+      <Routes basename="/Ghaziabad-Toastmasters-Club">
       <Route path="/Ghaziabad-Toastmasters-Club" element={<FinalLandingPage/>} />
           <Route path="/Home/" element={<Home/>} />
           <Route path='/Gallery' element={<Gallery/>}></Route>
