@@ -6,7 +6,7 @@ import Contact from './Contact/Contact';
 import FinalLandingPage from './LandingPageComponents/FinalLandingPage';
 const WebRoutes = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<FinalLandingPage />} />
         <Route path="/Home" element={<Home />} />
