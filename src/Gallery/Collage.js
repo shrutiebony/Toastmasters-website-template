@@ -9,11 +9,14 @@ import image6 from './GalleryImages/Toastmaster6.png';
 import image7 from './GalleryImages/Toastmaster7.png';
 import image8 from './GalleryImages/Toastmaster8.png';
 import image9 from './GalleryImages/Toastmaster9.png';
+import image10 from './GalleryImages/Toastmaster10.png';
+import image11 from './GalleryImages/Toastmaster11.png';
+import image12 from './GalleryImages/Toastmaster12.png';
 
 
 
 const Collage = () => {
-  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
+  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9,image10,image11,image12];
 
   const [selectedImage, setSelectedImage] = useState(null);
   const modalRef = useRef(null);

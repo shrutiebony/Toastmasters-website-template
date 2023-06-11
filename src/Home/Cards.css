@@ -29,7 +29,7 @@ body {
 }
 
 .card > img {
-  width: 50rem;
+  width: 50%;
   height: auto;
   aspect-ratio: 600/300;
 }
