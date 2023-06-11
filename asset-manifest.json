@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/Ghaziabad-Toastmasters-Club/static/css/main.a1f7a581.css",
-    "main.js": "/Ghaziabad-Toastmasters-Club/static/js/main.9db0ab32.js",
+    "main.css": "/Ghaziabad-Toastmasters-Club/static/css/main.7f5b4371.css",
+    "main.js": "/Ghaziabad-Toastmasters-Club/static/js/main.35bdb6e3.js",
     "static/js/787.c3b56d40.chunk.js": "/Ghaziabad-Toastmasters-Club/static/js/787.c3b56d40.chunk.js",
-    "static/media/Group_discussion.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Group_discussion.d0937391aab8c0bd2637.PNG",
-    "static/media/Moment_Of_Truth.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Moment_Of_Truth.9ce0f8e2cecd03f3c6df.PNG",
+    "static/media/Moment_Of_Truth.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Moment_Of_Truth.969792238f49af6c02ec.PNG",
+    "static/media/Toastmaster2.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster2.0af918e34397d8e1b17a.png",
+    "static/media/Toastmaster12.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster12.0d14532a34a3ff4f7950.png",
+    "static/media/Toastmaster5.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster5.1d74e1c0a381bde3556a.png",
+    "static/media/Group_discussion.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Group_discussion.2a4c39f7f1a1567b1a0f.PNG",
+    "static/media/Party.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Party.e9abf7f28ac1e3ce575d.PNG",
+    "static/media/Toastmaster6.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster6.35ddfde07e30afe51c52.png",
+    "static/media/Toastmaster10.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster10.a2872a816a6ace2160d1.png",
+    "static/media/Toastmaster11.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster11.5e20a98d2258529233bb.png",
+    "static/media/Toastmaster4.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster4.ecb10fd2c67b28a8648b.png",
+    "static/media/Toastmaster3.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster3.bb17802707288c6c852e.png",
     "static/media/Group.png": "/Ghaziabad-Toastmasters-Club/static/media/Group.ccb87b3f6881d23634e4.png",
-    "static/media/Party.PNG": "/Ghaziabad-Toastmasters-Club/static/media/Party.5fa55fd2f3894f85088a.PNG",
+    "static/media/Toastmaster7.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster7.39d9d3938b375e7fc67e.png",
+    "static/media/Toastmaster9.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster9.cbeed79442daad5aa37e.png",
+    "static/media/Toastmaster8.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster8.b53de9b4855d404c4b66.png",
     "static/media/background-image.jpg": "/Ghaziabad-Toastmasters-Club/static/media/background-image.d412a241111696688997.jpg",
-    "static/media/Toastmaster9.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster9.0a699741a90bdf3c27a0.png",
-    "static/media/Toastmaster3.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster3.0039994e6732a04b0a4d.png",
-    "static/media/Toastmaster8.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster8.45726622227ed6485c0c.png",
     "static/media/Toastmaster1.jpeg": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster1.8c1335d027881336bc75.jpeg",
-    "static/media/Toastmaster6.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster6.e2ec7a15a16f52070aac.png",
-    "static/media/Toastmaster4.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster4.7db7be5fd60553598441.png",
-    "static/media/Toastmaster2.png": "/Ghaziabad-Toastmasters-Club/static/media/Toastmaster2.11a64030f0e05eabc7e6.png",
     "index.html": "/Ghaziabad-Toastmasters-Club/index.html",
-    "main.a1f7a581.css.map": "/Ghaziabad-Toastmasters-Club/static/css/main.a1f7a581.css.map",
-    "main.9db0ab32.js.map": "/Ghaziabad-Toastmasters-Club/static/js/main.9db0ab32.js.map",
+    "main.7f5b4371.css.map": "/Ghaziabad-Toastmasters-Club/static/css/main.7f5b4371.css.map",
+    "main.35bdb6e3.js.map": "/Ghaziabad-Toastmasters-Club/static/js/main.35bdb6e3.js.map",
     "787.c3b56d40.chunk.js.map": "/Ghaziabad-Toastmasters-Club/static/js/787.c3b56d40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1f7a581.css",
-    "static/js/main.9db0ab32.js"
+    "static/css/main.7f5b4371.css",
+    "static/js/main.35bdb6e3.js"
   ]
 }
