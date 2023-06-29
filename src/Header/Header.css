@@ -1,0 +1,88 @@
+/* Reset default styles for the navbar */
+/* Style the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+.logo {
+  font-size: 2rem;
+  color: whitesmoke;
+  text-decoration: none;
+  flex: left;
+}
+
+/* Style the navigation links */
+.nav-links .linkClass {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.nav-links .linkClass {
+  color: rgb(245, 233, 211);
+  text-decoration: none;
+}
+
+.nav-links .linkClass:hover {
+  color: whitesmoke;
+}
+.menu-icon
+{
+  display: none;
+
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .navbar.show .nav-links {
+    display: flex;
+  }
+
+  .nav-links .linkClass {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .line-active {
+    transform: rotate(45deg);
+    background-color: rgb(245, 233, 211);
+  }
+
+
+}

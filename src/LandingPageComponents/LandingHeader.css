@@ -1,0 +1,43 @@
+.header {
+    background-color: rgba(87, 3, 3, 0.866);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    
+    color: whitesmoke;
+  }
+  
+  .header-icon {
+    margin-left: 5px;
+  }
+  
+  .header::before,
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.938);
+  }
+  
+  .header::before {
+    left: 0;
+    transform: rotate(-2deg);
+    transform-origin: bottom left;
+  }
+  
+  .header::after {
+    right: 0;
+    transform: rotate(2deg);
+    transform-origin: bottom right;
+  }
+  
